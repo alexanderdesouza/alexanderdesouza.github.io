@@ -1,12 +1,13 @@
-# Site configuration - based on the fork of github.com/barryclark/jekyll-now.
+# Site configuration ----------------------------------------------------------
+# Based on a fork of github.com/barryclark/jekyll-now.
 
 name: unnamed  # site name
-description: blog of a data beaver (🍁)
+description: learning to teach machines to learn
 avatar: https://raw.githubusercontent.com/alexanderdesouza/alexanderdesouza.github.io/master/images/alexanderdesouzagithubio.jpg
 
-# Optional flags:
+# Optional flags --------------------------------------------------------------
 
-# Include an icon in the footer for each username you enter:
+# Include an icon in the footer for each username provided:
 footer-links:
 #  email: firstname.lastname at google mail punt com
   github: alexanderdesouza
@@ -18,42 +19,42 @@ footer-links:
 #  pinterest: 
 #  rss: # type anything here for a working RSS icon
 #  twitter: 
-#  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+#  stackoverflow: # stackoverflow profile, e.g. "users/50476/bart-kiers"
 #  youtube: # channel/<your_long_string> or user/<user-name>
 #  googleplus: # from your profile username after plus.google.com/
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts:
-disqus:
+# Provide a disqus shortname to enable commenting on posts:
+# disqus: 
 
-# Enter your Google Analytics web tracking code (e.g., UA-2110908-2) to activate tracking:
-google_analytics:
+# Enter a tracking code (e.g., UA-2110908-2) to activate Google Web Analytics:
+# google_analytics:
 
-# Your website URL (e.g., http://barryclark.github.io or http://www.barryclark.co):
-url:
+# Personal website URL:
+url: http://alexanderdesouza.github.io
 
-# !! You don't need to change any of the configuration flags below !!
+# Additional configuration ----------------------------------------------------
+
 permalink: /:title/
 version: v1.2.0  # version of Jekyll Now being used
 
-# Jekyll 3 now supports Kramdown for Markdown
+# Jekyll 3 now supports Kramdown for Markdown:
 kramdown:
-  input: GFM # use GitHub flavored markdown, including triple backtick fenced code blocks
-             # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
+  input: GFM  # use GitHub flavored markdown, including triple backtick fenced
+              # code blocks
+  syntax_highlighter: rouge  # for syntax highlighting
   syntax_highlighter_opts: 
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    css_class: 'highlight'  # use existing pygments syntax highlighting css
 
-# Set the Sass partials directory, as we're using @imports:
+# Sets the Sass partials directory using @imports:
 sass:
   style: :compressed
 
-# Use the following plug-ins
-gems:
+# Use the following plug-ins:
+# gems:
 #   - jekyll-sitemap  # Create a sitemap using the official Jekyll sitemap gem
-#   - jekyll-feed  # Create an Atom feed using the official Jekyll feed gem
+#   - jekyll-feed     # Create an Atom feed using the official Jekyll feed gem
 
-# Exclude these files from your production _site
+# Exclude these files from the production _site
 exclude:
   - Gemfile
   - Gemfile.lock
