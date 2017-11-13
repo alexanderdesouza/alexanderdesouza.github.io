@@ -1,26 +1,26 @@
 # Site configuration - based on the fork of github.com/barryclark/jekyll-now.
 
 name: unnamed  # site name
-description: Data Beaver
-# avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+description: blog of a data beaver (🍁)
+avatar: https://raw.githubusercontent.com/alexanderdesouza/alexanderdesouza.github.io/master/images/alexanderdesouzagithubio.jpg
 
 # Optional flags:
 
 # Include an icon in the footer for each username you enter:
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: 
-  instagram: 
-  linkedin: 
-  pinterest: 
-  rss:  # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+#  email: firstname.lastname at google mail punt com
+#  github: 
+#  linkedin: 
+#  dribble: 
+#  facebook: 
+#  flickr: 
+#  instagram:
+#  pinterest: 
+#  rss: # type anything here for a working RSS icon
+#  twitter: 
+#  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+#  youtube: # channel/<your_long_string> or user/<user-name>
+#  googleplus: # from your profile username after plus.google.com/
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts:
 disqus:
@@ -46,7 +46,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports:
 sass:
-  style: : compressed
+  style: :compressed
 
 # Use the following plug-ins
 gems:
